@@ -1,0 +1,198 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #7aca5f;
+    color: white;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+    align-items: center;
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Signup Page Styles */
+.signup-page {
+    background-color: #f6f9fd; /* Dark Blue Background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.signup-container {
+    background-color: #7aca5f;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.signup-container h2 {
+    font-size: 28px;
+    color: #f6f9fd;
+    margin-bottom: 20px;
+}
+
+.signup-container input {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.signup-container button {
+    background-color: #1e73f2; /* Blue Button */
+    color: white;
+    font-size: 18px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    max-width: 300px;
+}
+
+.signup-container button:hover {
+    background-color: #1558b5;
+}
+
+.top-nav {
+    background-color: #222;
+    padding: 15px 0;
+    text-align: center;
+}
+
+.top-nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+.top-nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.top-nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.hero-section {
+    text-align: center;
+    padding: 80px 20px;
+    background: url('background-stars.png') no-repeat center center/cover;
+}
+
+.hero-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    
+}
+
+.hero-section p {
+    font-size: 18px;
+    color: #ffc107;
+}
+
+.search-bar {
+    margin-top: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 300px;
+    border-radius: 20px;
+    border: none;
+}
+
+.search-bar button {
+    background-color: #7aca5f;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 20px;
+}
+
+.begin-link {
+    color: white;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* General Styling for Sections */
+.html-section, .css-section, .js-section, .python-section {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+/* Background Colors */
+.html-section { background-color: #dbece5; }  /* Light Green */
+.css-section { background-color: #e0f7fa; }   /* Light Blue */
+.js-section { background-color: #fff7e6; }    /* Light Yellow */
+.python-section { background-color: #f3e8ff; } /* Light Purple */
+
+/* Headings */
+.html-section h1, .css-section h1, .js-section h1, .python-section h1 {
+    font-size: 60px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: black;
+}
+
+/* Paragraphs */
+.html-section p, .css-section p, .js-section p, .python-section p {
+    font-size: 20px;
+    margin-bottom: 30px;
+    color: black;
+}
+
+/* Button Container */
+.button-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+
+/* Button Styles */
+.btn {
+    width: 250px;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+/* Colors for Buttons */
+.green { background-color: #10b981; color: white; }
+.yellow { background-color: #facc15; color: black; }
+.dark { background-color: #1f2937; color: white; }
+.pink { background-color: #fda4af; color: black; }
+.blue { background-color: #3b82f6; color: white; }
+.light-blue { background-color: #7dd3fc; color: black; }
+.purple { background-color: #a855f7; color: white; }
+.orange { background-color: #fb923c; color: black; }
+.red { background-color: #ef4444; color: white; }
+.cyan { background-color: #06b6d4; color: white; }
+.teal { background-color: #14b8a6; color: white; }
+.violet { background-color: #8b5cf6; color: white; }
+
+
